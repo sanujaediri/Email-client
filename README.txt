@@ -22,5 +22,5 @@ Command-line options are available for:
     Printing out details (subject and recipient) of all the emails sent on a date specified by user input
     Printing out the number of recipient objects in the application
 
-This application imports the javax.mail package, which is included in the javax.mail.jar and should ne activated from javax.activation-1.2.0.jar
+This application imports the javax.mail package, which is included in the javax.mail.jar and should be activated from javax.activation-1.2.0.jar
 
