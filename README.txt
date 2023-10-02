@@ -5,7 +5,7 @@ The email client has two types of recipients, official and personal. Some offici
 Details of the recipient list are stored in clientList.txt file. recipient’s record in the text file has the following formats:
 
 Ex:     Official: <name>,<email>,<position in the company>
-        Office_friend: <name>,<email>,<position in th company>,<recipient's birthday in yyyy/mm/dd>
+        Office_friend: <name>,<email>,<position in the company>,<recipient's birthday in yyyy/mm/dd>
         Personal: <name>,<nick-name>,<email>,<recipient's birthday in yyyy/mm/dd>
 
 For each recipient having a birthday, a birthday greeting is sent on the correct day. Official friends and personal recipients should be sent different messages 
