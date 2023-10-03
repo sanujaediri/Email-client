@@ -388,7 +388,7 @@ class SendEmailTLS {
 		String msg = mail.getBody();
 
 		final String username = "emailtest154d@gmail.com";
-		final String password = "yrxdzndqztjfbkns";
+		final String password = <smtp credentials>;
 
 		Properties prop = new Properties();
 		prop.put("mail.smtp.host", "smtp.gmail.com");
