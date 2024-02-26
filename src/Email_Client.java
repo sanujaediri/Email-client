@@ -379,7 +379,7 @@ class Email implements Serializable {
 	}
 }
 
-//sends the email from emailtest154d@gmail.com
+//sends the email from [emailaddress]
 class SendEmailTLS {
 
 	public static void sendmail(Email mail) {
@@ -387,8 +387,8 @@ class SendEmailTLS {
 		String subject = mail.getSubject();
 		String msg = mail.getBody();
 
-		final String username = "emailtest154d@gmail.com";
-		final String password = <smtp credentials>;
+		final String username = [emailaddress];
+		final String password = [smtp credentials];
 
 		Properties prop = new Properties();
 		prop.put("mail.smtp.host", "smtp.gmail.com");
@@ -405,7 +405,7 @@ class SendEmailTLS {
 		try {
 
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("emailtest154d@gmail.com"));
+			message.setFrom(new InternetAddress([emailaddress]));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(email));
 			message.setSubject(subject);
 			message.setText(msg);
